@@ -1,0 +1,29 @@
+*, *:before *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(33, 37, 41);
+}
+#container {
+  background-color: rgb(33, 37, 41);
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100vh;
+}
+
+.bar:hover {
+  fill: red;
+}
+
+svg {
+  background-color: #fff;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
